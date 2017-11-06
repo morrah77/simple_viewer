@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.morrah77.apps.simpleviewer.MainActivity">
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/main_elements_width"
+            android:layout_height="@dimen/main_image_height"
+            android:adjustViewBounds="true"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_creator="@integer/vertical_padding"
+            app:srcCompat="@drawable/stub"
+            tools:layout_editor_absoluteY="16dp"/>
+    <TextView
+            android:id="@+id/texRecognizedLabel"
+            android:layout_width="@dimen/main_elements_width"
+            android:layout_height="@dimen/main_recognized_label_height"
+            android:layout_marginTop="@dimen/main_elements_sep_height_double"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.507"/>
+    <TextView
+            android:id="@+id/texRecognized"
+            android:layout_width="@dimen/main_elements_width"
+            android:layout_height="@dimen/main_recognized_height"
+            android:layout_marginTop="@dimen/main_elements_sep_height"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texRecognizedLabel"
+            app:layout_constraintHorizontal_bias="0.507"/>
+    <Button
+            android:id="@+id/recognizeButton"
+            android:enabled="true"
+            android:text="@string/recognize_button_label"
+            android:onClick="recognizeButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_elements_sep_height"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texRecognized"
+            app:layout_constraintHorizontal_bias="0.513"
+            tools:clickable="true"/>
+
+</android.support.constraint.ConstraintLayout>

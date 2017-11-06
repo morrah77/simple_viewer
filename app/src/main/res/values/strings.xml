@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_authorities">com.morrah77.fileprovider</string>
+    <string name="app_name">Simple Viewer</string>
+    <string name="app_greeting">Can recognize text from camera captured image</string>
+    <string name="recognize_button_label">Recognize</string>
+    <string name="recognize_label_fail">Unrecognized</string>
+    <string name="recognize_label_process">Recognizing</string>
+    <string name="recognize_label_success">Recognized</string>
+</resources>

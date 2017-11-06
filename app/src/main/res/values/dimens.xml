@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">10px</dimen>
+    <dimen name="main_elements_sep_height">10dp</dimen>
+    <dimen name="main_elements_sep_height_double">20dp</dimen>
+    <dimen name="main_elements_width">320dp</dimen>
+    <dimen name="main_image_height">200dp</dimen>
+    <dimen name="main_recognized_label_height">40dp</dimen>
+    <dimen name="main_recognized_height">150dp</dimen>
+</resources>
